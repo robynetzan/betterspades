@@ -16,6 +16,24 @@ ButterSpades is a fork which aims to improve the overall UI and feel of [BetterS
 - HUD shadows
 - Spectator Y-Clamp
 
+## Building 
+
+thank you utf in the aloha.pk server
+```
+compiled it successfully, here's the process i wrote down:
+install msys2 and run MSYS2 MINGW64
+install git with pacman -S git
+run git clone https://github.com/utf-4096/butterspades.git
+run pacman -S mingw-w64-x86_64-cmake mingw-w64-x86_64-make mingw-w64-x86_64-gcc mingw-w64-x86_64-enet mingw-w64-x86_64-glfw  mingw-w64-x86_64-glew mingw-w64-x86_64-openal mingw-w64-x86_64-libdeflate mingw-w64-x86_64-mesa
+restart msys2
+run: cd butterspades && mkdir build && cd build && cmake ..
+compile with: ninja
+run: wget https://raw.githubusercontent.com/mpreisler/mingw-bundledlls/master/mingw-bundledlls && chmod +x mingw-bundledlls
+run ./mingw-bundledlls --copy BetterSpades/client.exe
+client.exe and the required dlls should now be in C:\msys64\home\<your username>\butterspades\build\BetterSpades 
+```
+
+
 ## Previews
 
 | <img src="/docs/apoc.png" width="250px"><br />*Apocalypse on Babel* | <img src="/docs/babel.png" width="250px"><br />*Babel* | <img src="/docs/chat.png" width="250px"><br />*Chat* |
