@@ -7,6 +7,8 @@
 
 ButterSpades is a fork which aims to improve the overall UI and feel of [BetterSpades](https://github.com/xtreme8000/BetterSpades).
 
+AND KatySpades is the same as that but when you kill someone it plays a ding sound :D
+
 ## What's different
 - In-game settings/controls menu
 - Better UI scaling (HUD/Main UI)
